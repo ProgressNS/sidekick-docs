@@ -10,9 +10,18 @@ headerbaseurl: //www.nativescript.org
 
 navigation:
 ## List your directory names and order here, like this:
-    introduction:
-        position: 2
+    intro:
+        position: 1
         title: Introduction
+    getting-started:
+        position: 2
+        title: Get Started
+    user-guide:
+        position: 3
+        title: User Guide
+    techniques:
+        position: 4
+        title: Techniques
     
 ## The application virtual path
 baseurl: /sidekick
