@@ -1,0 +1,47 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# The public documentation URL, used for sitemap.xml
+headerbaseurl: //www.nativescript.org
+
+navigation:
+## List your directory names and order here, like this:
+    introduction:
+        position: 2
+        title: Introduction
+    
+## The application virtual path
+baseurl: /sidekick
+   
+## The highlighting in the header   
+skselected: "selected"
+
+## The product name
+productName: "NativeScript Sidekick"
+    
+## Assign layout and category per different paths
+defaults:
+-
+    scope:
+        path: ""
+    values:
+        layout: "page"
+        category: "default"
+
+# Assets pipeline configuration
+assets:
+    cachebust: soft
+    js_compressor: uglifier
+
+## Do not edit below this line
+safe: false
+markdown: MarkdownProcessor
+kramdown:
+    toc_levels: 2..3
+    smart_quotes: ["quot", "quot", "quot", "quot"]
+    input: GFM
+
