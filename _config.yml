@@ -41,6 +41,12 @@ defaults:
         layout: "page"
         category: "default"
 
+# Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
+"ns": "NativeScript"
+"sk": "Sidekick"
+"ns-sk": "NativeScipt Sidekick"
+"ns-cli": "NativeScript CLI"
+        
 # Assets pipeline configuration
 assets:
     cachebust: soft
