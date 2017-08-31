@@ -6,6 +6,8 @@ publish: true
 slug: known-issues
 ---
 
+# Known Issues
+
 * When you use `.keystore` or `.jks` certificates, the Release Cloud build for Android fails and the following error message appears: `Only 8, 16, 24, or 32 bits supported: 872`.<br/>
 **Workaround:** Use `.p12` certificates instead. 
 
@@ -30,6 +32,9 @@ slug: known-issues
 * When you debug, expanding the **Global Listeners** panel will show an error message in the Chrome DevTools console.<br/>
 **Workaround:** None.
 
+* When you debug apps deployed on an iOS device, the expressions in the **Watch** panel are not respected.<br/>
+**Workaround:** None.
+
 * When you debug, breakpoints placed in JavaScript files will be transferred to incorrect positions in the TypeScript files.<br/>
 **Workaround:** Place breakpoints only in the TypeScript files.
 
@@ -46,7 +51,4 @@ slug: known-issues
 **Workaround:** Delete the `/data/local/<app-id>` folder from the affected device. You can accomplish this by running the following commands - first the `adb shell` command and after that the `rm -rf data/local/tml/<app-id>` command.
 
 * On macOS, local iOS builds against XCode 8.3 throw `ENOENT: no such file or directory` error.<br/>
-**Workaround:** None.
-
-* When you debug apps deployed on an iOS device, the expressions in the **Watch** panel are not respected.<br/>
 **Workaround:** None.
