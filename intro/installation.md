@@ -6,7 +6,7 @@ publish: true
 slug: installation
 ---
 
-# Set Up Your System
+# Set Up Your System and Install Sidekick
 
 ## Step 1: Install Node.js
 
