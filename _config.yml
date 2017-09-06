@@ -19,6 +19,12 @@ navigation:
     user-guide:
         position: 3
         title: User Guide
+    user-guide/code-signing:
+        position: 3.5
+        title: Code Signing
+    user-guide/code-signing/code-signing-for-ios:
+        position: 3.6
+        title: Code Signing for iOS Apps
     techniques:
         position: 4
         title: Techniques
