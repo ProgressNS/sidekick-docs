@@ -43,9 +43,9 @@ slug: known-issues
 
 * On macOS, when you are a member of two or more development teams, the local iOS build cannot complete and the following error message appears: `Error: Unable to determine default development team. Available development teams are: YOUR_TEAM_ID, YOUR_TEAM_ID`.<br/>
 **Workaround:** Manually select a team.
- 1. In your app folder, navigate to `app/AppResources/iOS` and open the `build.xcconfig` file.
- 2. (Optional) If the `build.xcconfig` file does not exist, create it manually.
- 3. Specify a team id by entering `DEVELOPMENT_TEAM = YOUR_TEAM_ID`. You can obtain `YOUR_TEAM_ID` from the error message or from the [Apple Developer portal](https://developer.apple.com/account/#/membership). 
+	* 1. In your app folder, navigate to `app/AppResources/iOS` and open the `build.xcconfig` file.
+	* 2. (Optional) If the `build.xcconfig` file does not exist, create it manually.
+	* 3. Specify a team id by entering `DEVELOPMENT_TEAM = YOUR_TEAM_ID`. You can obtain `YOUR_TEAM_ID` from the error message or from the [Apple Developer portal](https://developer.apple.com/account/#/membership). 
 
 * On Android devices, when you build and LiveSync your app in the NativeScript CLI and then attempt to build and deploy it on a connected device in NativeScript Sidekick, you might experience issues. The app might not update correctly and retain its state from the last build in the NativeScript CLI.<br/>
 **Workaround:** Delete the `/data/local/<app-id>` folder from the affected device. You can accomplish this by running the following commands - first the `adb shell` command and after that the `rm -rf data/local/tml/<app-id>` command.

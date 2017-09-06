@@ -21,3 +21,6 @@ In this chapter you are going to learn how to deploy your app on connected Andro
 ## 3.2: Run Your App on an iOS Device or in the iOS Simulator
 
 ## 3.3: LiveSync Your Changes
+
+
+Make a 3.1 for prerequisites?

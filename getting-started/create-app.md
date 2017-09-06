@@ -18,25 +18,23 @@ In this chapter you are going to learn how to create and configure a new {{ side
 
 ## 1.1: Create a new app
 
-When you open Sidekick for the first time, you will see the **Create** and **Open** buttons. The Create button is used to create a new application and the Open button is used to load an already existing {{ side.ns }} project in {{ site.sk }}. 
+When you open Sidekick for the first time, you will see the **Create** and **Open** buttons. The **Create** button is used to create a new application and the **Open** button is used to load an already existing {{ side.ns }} project in {{ site.sk }}. 
 
-In this tutorial we are going to create a new application. Select the Create button and lets begin.
+In this tutorial we are going to create a new application. Click the **Create** button to bring up the **Create App** dialog. 
 
-When you click the Create button, the Create App dialog will appear.
+* **App Name**<br /> In this field you need to specify the name of your application. This value can be modified later on.
+* Project Folder: Click on the **Browse** button and navigate to the location in which you want your app to be created.
+* App ID: Specify an Application Identifier or leave the default one generated based on your name.
+* Project Type: For this tutorial, you should choose the NativeScript + Angular & TypeScript project type and the Master-Detail. This is the most complete template and offers the most enriched experience.
+* App Preview: You can also see how the initial app will look on your iOS or Android device.
 
-* Select App Name
-* Select Project Folder
-* Select App ID or leave the default one.
-* Select Project Type - There are three types of projects - JavaScript, TypeScript, Angular & TypeScript and each type offers 4 templates (Blank, Drawer Navigation, Tab Navigation and Master-Detail).
+Do not worry if you get something wrong. All of these settings can be modified later on from the App Settings section. While it is not possible to change the Project Type of an already created project, it is not impossible to turn a JavaScript Blank project into a Angular & TypeScript one, it will just take  time and effort.
 
-On the right-side you can see how the initial app will look on your iOS or Android device.
-
-For this tutorial, you should choose the NativeScript + Angular & TypeScript project type and the Master-Detail. This is the most complete template and offers the most enriched experience.
-
-Press the Create App button. This template contains a lot of dependencies so you might be required to wait a minute or two for its generation.
+Press the Create App button. This template has a lot of dependencies and you might need to wait a minute or two for its generation.
 
 ## 1.2: Modify the app settings
 
+Now that the app is created, lets see how we can modify some of its settings.
 // Consider extracting this information in User Guide, provide links and suggest changes to the customer. This way this will feel more like a tutorial.
 
 When the app creation process is complete, you will be redirected to the General App Settings panel of your app. Here you can modify some of the settings you provided before creating the app as well as some additional ones - Description, Author and Application Version.
@@ -48,6 +46,8 @@ In the iOS section you can...
 In the Android section you can...
 
 In the Assets section you can...
+
+
 
 ## 1.3: Include a plugin
 

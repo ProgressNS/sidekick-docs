@@ -1,5 +1,5 @@
 ---
-title: Requirements
+title: System Requirements
 description: This article describes what are the system requirements to run NativeScript Sidekick on your development machine.
 position: 2
 publish: true
@@ -7,8 +7,6 @@ slug: requirements
 ---
 
 # System Requirements
-
-
 
 ## Supported Operating Systems
 
@@ -32,7 +30,7 @@ slug: requirements
 
 ## Additional Requirements
 
-* **Node.js**<br /> To run {{ site.sk }}, you require the latest [Node.js LTS](https://github.com/nodejs/LTS#lts-schedule) version. You can download and install it from [https://nodejs.org/](https://nodejs.org/). We recommend using [Node.js 6.x](https://nodejs.org/dist/latest-v6.x/).
+* **Node.js**<br /> To run {{ site.sk }}, you need the latest [Node.js LTS](https://github.com/nodejs/LTS#lts-schedule) version. You can download and install it from [https://nodejs.org/](https://nodejs.org/). We recommend using [Node.js 6.x](https://nodejs.org/dist/latest-v6.x/).
 * **{{site.ns-cli}}**<br /> To run {{ site.sk }}, you need {{site.ns-cli}} version 3.1.3 or later. To install it, open a command-line terminal and run the following command `npm install -g nativescript`. 
-* **iTunes**<br /> To deploy on a connected iOS device, you require the latest official version of [iTunes](http://www.apple.com/bg/itunes/download/).
-* **Drivers for Android devices**<br /> To deploy on a connected Android device, you require the appropriate device drivers.
+* **iTunes**<br /> To deploy on a connected iOS device, you need the latest official version of [iTunes](http://www.apple.com/bg/itunes/download/).
+* **Drivers for Android devices**<br /> To deploy on a connected Android device, you need the appropriate device drivers.
