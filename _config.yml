@@ -7,7 +7,7 @@
 
 # The public documentation URL, used for sitemap.xml
 headerbaseurl: //www.nativescript.org
-destination: ./dist
+destination: ./sidekick
 
 navigation:
 ## List your directory names and order here, like this:
