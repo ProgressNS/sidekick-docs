@@ -24,6 +24,6 @@ To build and deploy your apps on an iOS device, you need to have them code signe
 1. Hover over the iOS device box and click on the settings icon (cogwheel) in the top right corner.
 1. In the **Manage iOS Provisioning and Certificates** dialog, select **Auto Generate**.
 1. Enter your Apple credentials and select **Generate**.
-1. Provide a password for the newly created certificate. Click on **Set Password**.
+1. When prompted, provide a password for the newly created certificate. Click on **Set Password**.
 1. Close the **Manage iOS Provisioning and Certificates** dialog. 
 1. Select **Run on Device** to build and deploy your app on the device. 
