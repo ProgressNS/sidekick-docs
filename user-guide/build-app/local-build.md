@@ -20,7 +20,7 @@ Build your apps locally on your machine with the help of previously installed de
 
 ## Procedure
 
-1. Launch {{ site.ns-sk }}.
+1. Launch {{ site.ns-sk }} and open your app.
 1. From the top toolbar, select **Run** &#8594; **Build**.
 1. Select a target platform.
 1. Under **Build Type**, select **Local Build**. 

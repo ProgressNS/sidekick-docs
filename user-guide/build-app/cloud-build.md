@@ -19,16 +19,16 @@ The cloud builds are incremental, which ensures that every build after the first
 
 ## Procedure
 
-1. Launch {{ site.ns-sk }}.
+1. Launch {{ site.ns-sk }} and open your app.
 1. From the top toolbar, select **Run** &#8594; **Build**.
 1. Select a target platform.
 1. Under **Build Type**, select **Cloud Build**.
-1. (Optional) Enable **Clean Build**. You might want to use this option of you experience sporadic build failure or other unexpected behavior. 
+1. (Optional) Enable **Clean Build**. You might want to use this option if you experience sporadic build failures or other unexpected behavior. 
 1. Select a **Configuration**.
 1. (Optional) If any issues are present, resolve them before you continue.
 1. Click on **Build**.
 1. Once the build process is complete, you will be presented with a path to the produced `APK` (for Android) and `IPA` (for iOS) files.
-	* When you build for Android, you will see a QR code as well. Scanning it with most barcode scanners will download the app directly on your device. 
+	* When you build for Android, you will see a QR code as well. On a physical device, use a barcode scanner to scan the QR code and install the application. 
 
 
 

@@ -22,22 +22,22 @@ navigation:
         title: User Guide
     user-guide/create-app:
         position: 3.1
-        title: Create App 
+        title: Creating Your App 
     user-guide/configure-app:
         position: 3.2
-        title: Configure App     
+        title: Configuring Your App     
     user-guide/code-signing:
         position: 3.3
-        title: Code Signing
+        title: Code Signing Your App
     user-guide/code-signing/code-signing-for-ios:
         position: 3.4
         title: Code Signing for iOS Apps
     user-guide/build-app:
         position: 3.5
-        title: Build App
+        title: Building Your App
     user-guide/run-app:
         position: 3.6
-        title: Run App on a Device
+        title: Running Your App on a Device
     
 ## The application virtual path
 baseurl: /sidekick
