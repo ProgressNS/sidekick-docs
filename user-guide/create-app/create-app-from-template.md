@@ -14,7 +14,7 @@ We recommend the Master Detail template, as it uses Firebase to manage app conte
 
 ## Procedure
 
-1. Open {{ site.ns-sk }}.
+1. Launch {{ site.ns-sk }}.
 1. Click **Create**.
 1. In the **App Name** text box, type a name for your app.
 1. In **Project Folder**, click **Browse** to set a storage location for your app.

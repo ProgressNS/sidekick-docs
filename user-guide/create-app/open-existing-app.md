@@ -12,6 +12,6 @@ If you already have an existing {{ site.ns }} app, you can open it in {{ site.sk
 
 ## Procedure
 
-1. Open {{ site.ns-sk }}.
+1. Launch {{ site.ns-sk }}.
 1. Click **Open**.
 1. Select the folder in which your {{ site.ns }} app is located. Click **Select Folder**.
