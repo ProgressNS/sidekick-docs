@@ -19,6 +19,12 @@ navigation:
     user-guide:
         position: 3
         title: User Guide
+    user-guide/create-app:
+        position: 3.1
+        title: Create Your App 
+    user-guide/configure-app:
+        position: 3.2
+        title: Configure Your App     
     user-guide/code-signing:
         position: 3.5
         title: Code Signing
