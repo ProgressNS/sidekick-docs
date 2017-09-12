@@ -14,9 +14,9 @@ slug: configuring-your-app
 
 1. Verify that you have opened your app in {{ site.ns-sk }}.
 1. Modify the settings for your app from the **App Settings** panel.
-	* For more information about the **General** tab, see [General Properties]({% slug general-properties %}#universal "General app properties").
-	* For more information about the **iOS** tab, see [iOS Properties]({% slug ios-properties %}).
-	* For more information about the **Android** tab, see [Android Properties]({% slug android-properties %}#universal "App properties for Android devices")
-	* For more information about the **Assets** tab, see [Assets]({% slug assets-management %}).
-	* For more information about the **Plugins** tab, see [Assets]({% slug plugins-management %}).
+	* For more information about the **General** tab, see [General Settings]({% slug general-properties %}).
+	* For more information about the **iOS** tab, see [iOS Settings]({% slug ios-properties %}).
+	* For more information about the **Android** tab, see [Android Settings]({% slug android-properties %}#universal "App properties for Android devices")
+	* For more information about the **Assets** tab, see [Assets Management]({% slug assets-management %}).
+	* For more information about the **Plugins** tab, see [Plugins Management]({% slug plugins-management %}).
 
