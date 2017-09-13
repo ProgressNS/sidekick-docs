@@ -6,7 +6,7 @@ publish: true
 slug: gs-create-app
 ---
 
-# Chapter 1 - Create and Configure Apps
+# Chapter 1 - Create and Configure Your App
 
 In this chapter you are going to learn how to create and configure a new {{ side.ns }} app in {{ site.sk }}.
 
@@ -57,6 +57,10 @@ In the Installed tab you can check all currently installed dependencies. From th
 1. Enter nativescript-blablabla inside the search box.
 2. Select the plugin.  
 3. On the right hand side, click Install.
+
+<div class="next-chapter-link-container">
+  <a href="build">Continue to Chapter 2 - Build Your App</a>
+</div>
 
 
 

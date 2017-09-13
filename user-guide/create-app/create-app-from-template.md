@@ -1,12 +1,12 @@
 ---
-title: Create from Template
+title: Create App From Template
 description: 
 position: 1
 publish: true
 slug: create-app-from-template
 ---
 
-# Create from Template
+# Create App From Template
 
 To help you get started with mobile app development, {{ site.ns-sk }} provides a selection of templates from which you can create an app. Based on the project type (JavaScript, TypeScript, Angular & TypeScript), you can choose between the Blank, Drawer Navigation, Tab Navigation and Master Detail templates.
 

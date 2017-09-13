@@ -51,3 +51,7 @@ To build your app for Android you need to:
 10. (Optional) If the build fails, an error message will be shown in the Output tab.
 11. A successful build will produce local path to the IPA file. You have to manually install it on the device.
 12. Press **Done** to return to the Build view.
+
+<div class="next-chapter-link-container">
+  <a href="run-on-device">Continue to Chapter 3 - Run Your App on a Device</a>
+</div>
