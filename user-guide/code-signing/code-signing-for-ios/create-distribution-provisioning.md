@@ -29,3 +29,7 @@ You can create a distribution provisioning profile in the [iOS Dev Center](https
 1. Select one or more certificates for distribution to include in the provisioning profile and click **Continue**.<br/>Only certificates for distribution are listed.
 1. Enter a name for the profile and click **Continue**.
 1. (Optional) Click **Download** to download the provisioning profile.
+
+## Next Steps
+
+Now that you have created a distribution certificate and provisioning profile, you can build your app in Release configuration and publish the produced app package to the App Store. For more information, see [Cloud Builds]({% slug cloud-build %}) and [Local Builds]({% slug local-build %}).

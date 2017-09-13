@@ -24,3 +24,7 @@ We recommend the Master Detail template, as it uses Firebase to manage app conte
 1. Select one of the available templates.
 1. In the bottom right corner, click **Create App**. 
 
+## Next Steps
+
+Continue by [Configuring your App]({% slug configuring-your-app %}) to fit your specific requirements or directly [Deploy and Test Your App on a Connected Device]({% slug deploy-on-device %}).
+

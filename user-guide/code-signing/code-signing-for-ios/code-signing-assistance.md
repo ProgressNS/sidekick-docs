@@ -27,3 +27,7 @@ To build and deploy your apps on an iOS device, you need to have them code signe
 1. When prompted, provide a password for the newly created certificate. Click on **Set Password**.
 1. Close the **Manage iOS Provisioning and Certificates** dialog. 
 1. Select **Run on Device** to build and deploy your app on the device. 
+
+## Next Steps
+
+Now that you have created a temporary development certificate and provisioning profile, you can [Deploy and Test Your App on a Connected Device]({% slug deploy-on-device %}).

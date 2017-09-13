@@ -33,3 +33,7 @@ You can create a development provisioning profile in the [iOS Dev Center](https:
 1. Provide a name for the profile and click **Continue**.
 1. (Optional) Click **Download** to download the provisioning profile.
 1. Click **Done**.
+
+## Next Steps
+
+Now that you have created a development certificate and provisioning profile, you can [Deploy and Test Your App on a Connected Device]({% slug deploy-on-device %}).
