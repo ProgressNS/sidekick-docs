@@ -8,14 +8,11 @@ slug: known-issues
 
 # Known Issues
 
+* When you select, install, update or remove plugins from the **Plugins** tab in App Settings, you might experience an `Internal server error` error.<br/>
+**Workaround:** Install the plugins manually from a command-line terminal (Command Prompt on Windows, Terminal on macOS and Linux). 
+
 * When you use `.keystore` or `.jks` certificates, the Release Cloud build for Android fails and the following error message appears: `Only 8, 16, 24, or 32 bits supported: 872`.<br/>
 **Workaround:** Use `.p12` certificates instead. 
-
-* Restarting Sidekick from the **Update Available** notification will close and update the client but will not start it again.<br/>
-**Workaround:** Launch Sidekick manually after the update.
-
-* Maximizing the Sidekick window does not persist between sessions.<br/>
-**Workaround:** None.
 
 * On Windows, if the combined length of the base folder (in which you create the app) and the app folder name is greater than 60 symbols, you cannot build locally for Android. The process fails and the following error message appears: `Error: Failed to crunch file <Path To File>`.<br/>
 **Workaround:** Ensure that the combined character length of the base folder name and the app name is less than 60 symbols. 

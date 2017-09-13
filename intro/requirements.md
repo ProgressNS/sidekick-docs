@@ -10,6 +10,8 @@ slug: requirements
 
 ## Supported Operating Systems
 
+> {{ site.ns-sk }} is available only for 64-bit operating systems.
+
 | Platform &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Requirements           |
 |:----------------------------------------|:-----------------------|
 | `Windows`   | Windows 7 Service Pack 1 and later versions are supported.<br /> Only x64 (amd64) binaries are provided for Windows.|
@@ -30,7 +32,7 @@ slug: requirements
 
 ## Additional Requirements
 
-* **Node.js**<br /> To run {{ site.sk }}, you need the latest [Node.js LTS](https://github.com/nodejs/LTS#lts-schedule) version. You can download and install it from [https://nodejs.org/](https://nodejs.org/). We recommend using [Node.js 6.x](https://nodejs.org/dist/latest-v6.x/).
-* **{{site.ns-cli}}**<br /> To run {{ site.sk }}, you need the latest version of the {{site.ns-cli}} (currently, 3.2.0). To install it, open a command-line terminal and run the following command `npm install -g nativescript`. 
+* **Node.js**<br /> To run {{ site.sk }}, you need the latest [Node.js LTS](https://github.com/nodejs/LTS#lts-schedule) version. We recommend using [Node.js 6.x](https://nodejs.org/dist/latest-v6.x/).
+* **{{site.ns-cli}}**<br /> To run {{ site.sk }}, you need to have the latest version of the {{site.ns-cli}} (currently, 3.2.0) installed on your machine.
 * **iTunes**<br /> To deploy on a connected iOS device, you need the latest official version of [iTunes](http://www.apple.com/bg/itunes/download/).
 * **Drivers for Android devices**<br /> To deploy on a connected Android device, you need the appropriate device drivers.

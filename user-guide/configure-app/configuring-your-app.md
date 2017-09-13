@@ -8,7 +8,7 @@ slug: configuring-your-app
 
 # Configure Your App
 
-{{ site.ns-sk }} lets you personalize your app for iOS and Android. You can set the application version, select supported device orientations, set permissions, add and manage plugins, and so on.
+In {{ site.ns-sk }}, you can easily modify various application settings. In addition to the General settings, which are common for all platforms, you can modify Android and iOS specific properties, as well as manage the plugins and assets of your app.
 
 ## Procedure
 
