@@ -16,6 +16,12 @@ Based on the type of the modified files, the LiveSync will behave differently:
 * When you LiveSync modifications made to a JavaScript or TypeScript file, in order for the changes to take effect, the app will restart automatically.
 * When you LiveSync modifications made to the app resources or plugins, in order for the changes to take effect, the app will be rebuilt, redeployed and launched again automatically.
 
+## Prerequisites
+
+* Verify that you have connected at least one physical device to your system or you have a running Android emulator or iOS simulator.
+* To build and deploy an app on an iOS device, you need a valid certificate and mobile provision. If you have a Free Apple Developer account, you can use the [Code Signing Assistance]({% slug code-signing-assistance %}) to automatically generate temporary certificate and mobile provision. For more information about iOS code signing, see the [iOS Developer Program article]({% slug ios-developer-program %}).
+* To build an app in Release configuration and deploy it on an Android device, you need a valid Google Play self-signed code signing identity.
+
 ## Procedure
 
 1. Launch Sidekick and open your app.

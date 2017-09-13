@@ -10,11 +10,11 @@ slug: whats-new
 
 > To run NativeScript Sidekick, you need to have NativeScript CLI version 3.2.0 or later installed on your machine. 
 
-* **Code Signing Assistance**<br/> If you have a **Free Apple Developer account**, you can use this functionality to create temporary certificates and  mobile provisions which can be used to deploy and test your app on a device.
+* **Code Signing Assistance**<br/> If you have a **Free Apple Developer account**, you can use this functionality to create temporary certificates and  mobile provisions which can be used to deploy and test your app on an iOS device. For more information, see [Code Signing Assistance]({% slug code-signing-assistance %}).
 
-* **Create a Certificate Signing Request**<br/> You can now create a Certificate Signing Request (CSR) in Sidekick. The CSR is a prerequisite for creating a certificate in the iOS Dev Center.
+* **Create a Certificate Signing Request**<br/> You can now create a Certificate Signing Request (CSR) in Sidekick. The CSR is a prerequisite for creating a certificate in the iOS Dev Center. For more information, see [Create a Certificate Signing Request]({% slug create-csr %}).
 
-* **Updated App Settings**<br/> You can now set the Minimum and Target SDK versions from the Android tab of App Settings. 
+* **Updated App Settings**<br/> You can now set the Minimum and Target SDK versions from the Android tab of App Settings. For more information, see [Android Settings]({% slug android-properties %}).
 
 * **Notable Resolved Issues**
 	* When you debug apps deployed on an iOS device, the expressions in the Watch panel are not respected.

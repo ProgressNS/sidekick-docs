@@ -8,7 +8,7 @@ slug: known-issues
 
 # Known Issues
 
-* When you select, install, update or remove plugins from the **Plugins** tab in App Settings, you might experience an `Internal server error` error.<br/>
+* When you select, install, update or remove plugins from the **Plugins** tab in App Settings, you might experience an `Internal server error`.<br/>
 **Workaround:** Install the plugins manually from a command-line terminal (Command Prompt on Windows, Terminal on macOS and Linux). 
 
 * When you use `.keystore` or `.jks` certificates, the Release Cloud build for Android fails and the following error message appears: `Only 8, 16, 24, or 32 bits supported: 872`.<br/>
