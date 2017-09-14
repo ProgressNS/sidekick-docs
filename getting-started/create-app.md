@@ -18,17 +18,13 @@ In this chapter you are going to learn how to create and configure a new {{ side
 
 ## 1.1: Create a new app
 
-When you open Sidekick for the first time, you will see the **Create** and **Open** buttons. The **Create** button is used to create a new application and the **Open** button is used to load an already existing {{ side.ns }} project in {{ site.sk }}. 
+When you launch {{ site.ns-sk }}, you are presented with a view that shows a list of all available applications. If you open the client for the first time, instead of a list of apps, you will see only the **Create** and **Open** buttons.
 
-In this tutorial we are going to create a new application. Click the **Create** button to bring up the **Create App** dialog. 
+Now let us inspect the user interface. From the top toolbar, you can create a new app, open existing one, filter 
 
-* **App Name**<br /> In this field you need to specify the name of your application. This value can be modified later on.
-* Project Folder: Click on the **Browse** button and navigate to the location in which you want your app to be created.
-* App ID: Specify an Application Identifier or leave the default one generated based on your name.
-* Project Type: For this tutorial, you should choose the NativeScript + Angular & TypeScript project type and the Master-Detail. This is the most complete template and offers the most enriched experience.
-* App Preview: You can also see how the initial app will look on your iOS or Android device.
+When you open {{ site.ns-sk }} for the first time, you will see the **Create** and **Open** buttons. In this tutorial we are going to create a new application. Click the **Create** button to bring up the **Create App** dialog. 
 
-Do not worry if you get something wrong. All of these settings can be modified later on from the App Settings section. While it is not possible to change the Project Type of an already created project, it is not impossible to turn a JavaScript Blank project into a Angular & TypeScript one, it will just take  time and effort.
+Do not worry if you get something wrong. Most of these settings can be modified later on from the App Settings section. While it is not possible to change the Project Type of an already created project, it is not impossible to turn a JavaScript Blank project into a Angular & TypeScript one, it will just take  time and effort.
 
 Press the Create App button. This template has a lot of dependencies and you might need to wait a minute or two for its generation.
 
@@ -41,12 +37,10 @@ When the app creation process is complete, you will be redirected to the General
 
 The Application Version is used to create a uniform version for both iOS and Android. Originally, when you have just created the app, this field is grayed out. To enable it, you should open the Android tab in App Settings, set the Application Version Code to 10000 and then click the Save button. This action is required due to the nature of the version code and how it is calculated based on the Android Application Version.
 
-In the iOS section you can...
 
-In the Android section you can...
-
-In the Assets section you can...
-
+General Settings: Create a uniform versioning for your application.
+iOS Settings: Device Families : iPhone and Supported Interface Orientations: select only Portrait.
+Android Settings: Target SDK Version:
 
 
 ## 1.3: Include a plugin

@@ -8,7 +8,7 @@ slug: whats-new
 
 # What's New in Sidekick 0.2.3
 
-> To run NativeScript Sidekick, you need to have NativeScript CLI version 3.2.0 or later installed on your machine. 
+> To run NativeScript Sidekick, you need to have NativeScript CLI version 3.2.1 or later installed on your machine. 
 
 * **Code Signing Assistance**<br/> If you have a **Free Apple Developer account**, you can use this functionality to create temporary certificates and  mobile provisions which can be used to deploy and test your app on an iOS device. For more information, see [Code Signing Assistance]({% slug code-signing-assistance %}).
 
