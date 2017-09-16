@@ -8,7 +8,7 @@ slug: gs-build
 
 # Chapter 2 - Build Your App
 
-In this chapter you are going to learn how you can use {{ site.sk }} to build your app for Android and iOS.
+In this chapter, you are going to learn about the cloud and local builds.  
 
 ## Table of contents
 

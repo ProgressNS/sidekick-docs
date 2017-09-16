@@ -16,7 +16,7 @@ In {{ site.ns-sk }}, you can easily modify various application settings. In addi
 1. Modify the settings for your app from the **App Settings** panel.
 	* For more information about the **General** tab, see [General Settings]({% slug general-properties %}).
 	* For more information about the **iOS** tab, see [iOS Settings]({% slug ios-properties %}).
-	* For more information about the **Android** tab, see [Android Settings]({% slug android-properties %}#universal "App properties for Android devices")
+	* For more information about the **Android** tab, see [Android Settings]({% slug android-properties %}).
 	* For more information about the **Assets** tab, see [Assets Management]({% slug assets-management %}).
 	* For more information about the **Plugins** tab, see [Plugins Management]({% slug plugins-management %}).
 
