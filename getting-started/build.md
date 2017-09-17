@@ -49,9 +49,9 @@ In this tutorial, instead of going through the cumbersome process of creating a 
 
 The temporary code signing assets can be used to build your app only in **Debug** configuration. To build your app in **Release**, you have to manually create a valid [distribution certificate]({% slug create-distribution-certificate %}) and [distribution provisioning profile]({% slug create-distribution-provisioning %}). 
 
-Now that you have a certificate and mobile provision, let's move on and actually build the app. If you do not have {{ site.sk }} running, launch it now and open your app. To open the build view, select **Run** and then **Build**. Select **iOS** for target platform, then keep hovering on the iOS platform box and click the settings icon (the cogwheel). Provide the certificate and provision generated with the code signing assistance or your own and close the dialog. Choose a **Build Type**, and leave the **Configuration** to **Debug**. Click on the **Build** button to start building the app.
+Now that you have a certificate and mobile provision, let's move on and actually build the app. If you do not have {{ site.sk }} running, launch it now and open your app. To open the build view, select **Run** and then **Build**. Select **iOS** for target platform, then keep hovering on the iOS platform box and click on the settings icon (the cogwheel). Provide the certificate and provision generated with the code signing assistance or your own and close the dialog. Choose a **Build Type**, and leave the **Configuration** to **Debug**. Click on the **Build** button to start building the app.
 
-When the build process is complete, you will be presented with a local path to the produced application package (`IPA`). You can install the `IPA` manually on a device through iTunes.
+When the build process is complete, you will be presented with a local path to the produced application package (`IPA`). You can install the `IPA` manually on a device through iTunes. If you have used the code signing assistance, you can install the app only on the devices connected to your machine while you were generating the temporary certificate and mobile provision.
 
 <div class="next-chapter-link-container">
   <a href="run-on-device">Continue to Chapter 3 - Run Your App on a Device</a>
