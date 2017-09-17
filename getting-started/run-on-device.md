@@ -8,7 +8,7 @@ slug: gs-run
 
 # Chapter 3 - Run Your App on a Device
 
-In this final chapter, you are going to learn how to deploy your app on connected Android and iOS devices. You can use the same process to run your app in an Android emulator or the iOS simulator. We will also explain the LiveSync feature and how you can use it to sync changes made to your app across all connected devices without the need to re-build  it. Finally, you are going to see how to begin a debug session in {{ site.sk }}.
+In this final chapter, you are going to learn how to deploy your app on connected Android and iOS devices. You can use the same process to run your app in an Android emulator or the iOS simulator. We will also explain the LiveSync feature and how you can use it to sync changes made to your app across all connected devices without the need to rebuild it. Finally, you are going to see how to begin a debug session in {{ site.sk }}.
 
 ## Table of contents
 
@@ -32,17 +32,17 @@ Launch {{ site.sk }} and open your app. To open the run on device view, select *
 
 Enabling the **Start Debugger** option will automatically begin a debugging session when the app is started on the device.
 
-Click on the **Run on Device** button to start building the app. If the app is already installed on the device, any changes will be synced and the app will not undergo a complete re-build.
+Click on the **Run on Device** button to start building the app. If the app is already installed on the device, any changes will be synced and the app will not undergo a complete rebuild. Once the app is deployed on the device, it will be launched automatically.
 
 While the app is running on the device, you can inspect the device logs to obtain verbose information or identify issues. The device logs are accessible from the **Devices** pane. Choose the device you are interested in and select the **Console** tab.
 
 ## 3.3: Run your app on an iOS device
 
-To build and deploy your app on a connected iOS device, select **Run** and then **Run on Device**. In the run on device view, select the iOS device/s on which you want to deploy your app. You need to specify certificate and mobile provision for every iOS device. To do this, hover on the device and click on the settings icon (the cogwheel). Provide a certificate and provision. If you are using certificate and mobile provision generated with the code signing assistance, ensure that you are deploying on the same device/s used during their creation. Choose a **Build Type**, and leave the **Configuration** to **Debug**. Click on the **Build** button to start building the app.
+To build and deploy your app on a connected iOS device, select **Run** and then **Run on Device**. In the run on device view, select the iOS device/s on which you want to deploy your app. You need to specify certificate and mobile provision for every iOS device. To do this, hover on the device and click on the settings icon (the cogwheel). Provide a certificate and provision. If you are using certificate and mobile provision generated with the code signing assistance, ensure that you are deploying on the same device/s used during their creation. Choose a **Build Type** and leave the **Configuration** to **Debug**. Click on the **Build** button to start building the app.
 
 Enabling the **Start Debugger** option will automatically begin a debugging session when the app is started on the device.
 
-Click on the **Run on Device** button to start building the app. If the app is already installed on the device, any changes will be synced and the app will not undergo a complete re-build.
+Click on the **Run on Device** button to start building the app. If the app is already installed on the device, any changes will be synced and the app will not undergo a complete rebuild. Once the app is deployed on the device, you need to launch it manually. 
 
 You can inspect the iOS device logs the same way you would the Android ones.
 

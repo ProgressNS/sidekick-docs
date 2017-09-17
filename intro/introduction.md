@@ -15,7 +15,7 @@ slug: introduction
 
 ## Get Started
 
-Ready to start your journey in the wondrous world of mobile development with {{ site.ns-sk }}? Then it is time to team up with your faithful sidekick and [get started](#gs-overview).
+Ready to start your journey in the wondrous world of mobile development with {{ site.ns-sk }}? Then it is time to team up with your faithful sidekick and [get started]({% slug gs-overview %}).
 
 [//]: # (Once you have installed and configured all the required components, it's time to team up with your faithful sidekick and [begin your journey](#gs-overview) in the wondrous world of mobile development with {{ site.ns-sk }}.)
 
