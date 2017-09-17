@@ -8,49 +8,50 @@ slug: gs-build
 
 # Chapter 2 - Build Your App
 
-In this chapter, you are going to learn about the cloud and local builds.  
+In this chapter, you are going to learn about the cloud and local builds and what are the most important difference between the two. You will also see what are the requirements and steps needed to build your app for Android and iOS.  
 
 ## Table of contents
 
-* [2.1: Build for Android](#23-build-for-android)
-* [2.2: Build for iOS](#24-build-for-ios)
+* [2.1: Cloud builds or Local builds](#21-cloud-builds-or-local-builds)
+* [2.2: Build for Android](#22-build-for-android)
+* [2.3: Build for iOS](#23-build-for-ios)
 
-## 2.1: Build for Android
+## 2.1: Cloud builds or Local builds
 
-> To build locally for Android, you need to have configured your system for local builds.
+You might ask yourself what are the differences between the Cloud and Local builds?
 
-> To build for Android in Release configuration, you need a valid Google Play certificate. How to obtain one is explained here.
+* **No preliminary setup is required to build in the cloud** <br/>
+You do not need to install any additional SDKs or frameworks to build your app in the cloud. For example, you are not required to install the Android SDK or the Java Development Kit. In comparison, to build locally you need to set up your development machine as explained in the [Install iOS and Android Requirements for Local Builds]({% slug installation %}#step-4-optional-install-ios-and-android-requirements-for-local-builds) article.
+* **Build for iOS in the cloud on all major operating systems**<br/>
+The cloud builds negate the requirement to have a macOS system to build your app for iOS. You can use a Windows or Linux system to develop {{ site.ns }} apps for iOS.
 
-To build your app for Android you need to:
+> To build your apps in the cloud, you need a Telerik account. You can create one for free from [here](https://www.telerik.com/login/v2/telerik).
 
-1. Open your app in Sidekick.
-2. From the top bar select **Run** -> **Build**.
-3. In the newly opened **Build** view, select the Android icon.
-4. Choose Build Type. (Cloud or Local)
-5. Choose Configuration. (Debug)
-6. Click Build and wait for the process to complete.
-7. (Optional) If the build fails, an error message will be shown in the Output tab.
-8. A successful build will produce a QR code and a local path to the APK file. The QR code can be scanned with most Barcode Scanners. Scanning the QR code will download the app directly to your device from where you have to install it manually.
-9. Press **Done** to return to the Build view.
+## 2.2: Build for Android
 
-## 2.2: Build for iOS
+Let's see what are the requirements to build your app for Android. As mentioned above, to build Android apps locally, you need to have all the requirements installed on your machine. In this tutorial, we are going to build the app in **Debug** configuration. However, if you plan on building the app in **Release** configuration, you need to have a valid Google Play certificate. 
 
-> To build locally for iOS, you need to have a properly configured macOS system.
+If you do not have {{ site.sk }} running, launch it now and open your app. To open the build view, select **Run** and then **Build**. Select **Android** for target platform, choose a **Build Type**, and leave the **Configuration** to **Debug**. Click on the **Build** button to start building the app.
 
-> To build for iOS, you need to have a valid iOS certificate and provisioning profile. How to create an iOS certificate is explained here. How to create a provisioning profile is explained here. To build in debug mode you can use the Auto Generate tool that we offer.
+The initial build might take longer to complete because the app is undergoing a complete build. However, most of the data is cached and then reused in the consequential builds. This is what we call "incremental builds" and it will significantly reduce the time required to complete a build.
 
-1. Open your app in Sidekick.
-2. From the top bar select **Run** -> **Build**.
-3. In the newly opened **Build** view, select the iOS icon.
-4. Hover on the iOS icon and click on the **cogwheel** to open the **Manage iOS Provisioning and Certificates** dialog.
-5. (Optional) If you do not have valid provisioning profile and certificate, you should click on **Auto Generate** and check the instructions in the [iOS Code Signing Assistance article]().
-6. In the **Manage iOS Provisioning and Certificates** dialog, click Select Provision and select a valid mobile provision file. Then click on Select Certificate and select a valid certificate file.
-7. Choose Build Type.
-8. Choose Configuration.
-9. Click **Build** and wait for the process to complete.
-10. (Optional) If the build fails, an error message will be shown in the Output tab.
-11. A successful build will produce local path to the IPA file. You have to manually install it on the device.
-12. Press **Done** to return to the Build view.
+While you are waiting, you might want to inspect the log produced during build. To access it, click on the **Output** button located in the bottom right corner of the client.  Under the **All** tab, you will see unfiltered information about the build, including  the build steps, warnings and errors. The **Errors** tab will show only errors that have caused the build to fail.
+
+When the build process is complete, you will be presented with a QR code and a local path to the produced application package (`APK`). You can install the `APK` manually or use an Android device with installed barcode scanner app to scan the QR code. This will download your app directly on the device. 
+
+## 2.3: Build for iOS
+
+It is time to see how you can build your app for iOS. As mentioned above, to build iOS apps locally, you need to have a properly configured macOS system. 
+
+To build your app for iOS, you need to provide a valid certificate and mobile provision. For more information about iOS code signing, see [The iOS Developer Program]({% slug ios-developer-program %}). 
+
+In this tutorial, instead of going through the cumbersome process of creating a certificate and mobile provision in the iOS Dev Center, we are going to use another feature of {{ site.ns-sk }} - the code signing assistance. Before you continue, please, open the [Code Signing Assistance article]({% slug code-signing-assistance %}) and follow the steps outlined there to generate a temporary development certificate and mobile provision. If you have your own certificate and mobile provision, please, feel free to skip this step.
+
+The temporary code signing assets can be used to build your app only in **Debug** configuration. To build your app in **Release**, you have to manually create a valid [distribution certificate]({% slug create-distribution-certificate %}) and [distribution provisioning profile]({% slug create-distribution-provisioning %}). 
+
+Now that you have a certificate and mobile provision, let's move on and actually build the app. If you do not have {{ site.sk }} running, launch it now and open your app. To open the build view, select **Run** and then **Build**. Select **iOS** for target platform, then keep hovering on the iOS platform box and click the settings icon (the cogwheel). Provide the certificate and provision generated with the code signing assistance or your own and close the dialog. Choose a **Build Type**, and leave the **Configuration** to **Debug**. Click on the **Build** button to start building the app.
+
+When the build process is complete, you will be presented with a local path to the produced application package (`IPA`). You can install the `IPA` manually on a device through iTunes.
 
 <div class="next-chapter-link-container">
   <a href="run-on-device">Continue to Chapter 3 - Run Your App on a Device</a>

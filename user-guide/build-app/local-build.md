@@ -28,4 +28,4 @@ Build your apps locally on your machine with the help of previously installed de
 1. (Optional) If any issues are present, resolve them before you continue.
 1. Click on **Build**.
 1. Once the build process is complete, you will be presented with a path to the produced `APK` (for Android) and `IPA` (for iOS) files.
-	* When you build for Android, you will see a QR code as well. On a physical device, use a barcode scanner to scan the QR code and install the application.
+	* A successful build for Android will produce a QR code as well. On a physical device, use a barcode scanner to scan the QR code and install the application.

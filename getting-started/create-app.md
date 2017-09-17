@@ -20,9 +20,9 @@ In this chapter, you are going to learn how to create a {{ site.ns }} app in {{ 
 
 The initial launch of {{ site.ns-sk }} will present you with a view containing the "Create" and "Open" buttons and the "You haven't created any apps yet" message. Later on, from this view you will be able to see and manage all apps that are associated with {{ site.sk }}. 
 
-To start creating a new {{ site.ns }} app, click on the **Create** button. This will open the **Create App** dialog, where you need to set the name of your app, select a folder in which it will be placed and provide an application identifier (App ID). For more information about these settings, see [General Settings]({% slug general-properties %}). Do not worry if you get something wrong, most of these settings can be modified later on from the **App Settings** panel.
+To start creating a new {{ site.ns }} app, click on the **Create** button. This will open the **Create App** dialog where you need to set the name of your app, select a folder in which it will be placed and provide an application identifier (App ID). For more information about these settings, see [General Settings]({% slug general-properties %}). Do not worry if you get something wrong, most of these settings can be modified later on from the **App Settings** panel.
 
-Additionally, you need to select a project type and a starting template. For this tutorial, we are going to use the **Angular & TypeScript** project type and the **Master-Detail with Firebase** template. We believe this combination will give you the most fulfilling experience and will show you the true power of {{ site.ns }}.
+Additionally, you need to select a project type and a starting template. For this tutorial, we recommend that you select the **Angular & TypeScript** project type and the **Master-Detail with Firebase** template. We believe this template offers the most fulfilling experience and will show you the true power of {{ site.ns }}.
 
 Make sure that you have provided all the required information and click on the **Create App** button.
 
@@ -40,7 +40,7 @@ The **Plugins** tab in **App Settings** lets you install, update, configure, and
 
 All you have to do is type the name of the plugin in the search box and let {{ site.sk }} do its magic. Based on your search parameter, you will be presented with one or several results that match your input. Select the one that you need and click **Install** to download and include the plugin in your app.
 
-Let's move to the next chapter and see how we can build this app.
+Let's move to the next chapter and see how you can build your new app.
 
 <div class="next-chapter-link-container">
   <a href="build">Continue to Chapter 2 - Build Your App</a>
