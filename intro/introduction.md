@@ -23,6 +23,6 @@ Ready to start your journey in the wondrous world of mobile development with {{ 
 
 Let us know what you think about {{ site.sk }} and we will use your input to make the product even better. Your feedback not only helps us to improve and polish the client but also shapes and influences the course of its future development. Below you can find the various feedback channels.
 
-* Create an issue in this [GitHub repository](https://github.com/NativeScript/sidekick-feedback/issues). You can use this channel to report bugs, requests features, or just share your opinion about {{ site.sk }}.
+* Create an issue in the [Sidekick Feedback](https://github.com/NativeScript/sidekick-feedback/issues) repository. You can use this channel to report bugs, requests features, or just share your opinion about {{ site.sk }}.
 
 * Use the built-in Intercom system to share your experience directly with the team responsible for the development of {{ site.ns-sk }}. The Intercom can be found in the bottom right corner of the client. 
