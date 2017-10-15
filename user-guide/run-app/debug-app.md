@@ -8,12 +8,14 @@ slug: debug-app
 
 # Debugging Your App
 
-Debug an app deployed on a connected device, Android emulator, or the iOS simulator. 
+Debug an app deployed on a connected device, Android emulator, or the iOS simulator. You can start a debugging session by following the procedure outlined below or by enabling the **Start Debugger** option when you [Deploy Your App on  a Device]({% slug deploy-on-device %}).
 
 ## Prerequisites
 
 * Verify that you have connected at least one physical device to your system or you have a running Android emulator or iOS simulator.
+* For Android devices, verify that you have enabled USB debugging. For more information, see [Configure On-Device Developer Options](https://developer.android.com/studio/debug/dev-options.html) in the Android Studio User Guide.
 * Verify that the app deployed on the device is built in Debug configuration.
+* Verify that the app you want to debug is currently running.
 
 ## Procedure
 

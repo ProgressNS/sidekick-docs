@@ -25,18 +25,21 @@ navigation:
         title: Creating Your App 
     user-guide/configure-app:
         position: 3.2
-        title: Configuring Your App     
-    user-guide/code-signing:
+        title: Configuring Your App    
+    user-guide/add-page:
         position: 3.3
+        title: Adding a New Page to Your App         
+    user-guide/code-signing:
+        position: 3.4
         title: Code Signing Your App
     user-guide/code-signing/code-signing-for-ios:
-        position: 3.4
+        position: 3.5
         title: Code Signing for iOS Apps
     user-guide/build-app:
-        position: 3.5
+        position: 3.6
         title: Building Your App
     user-guide/run-app:
-        position: 3.6
+        position: 3.7
         title: Running Your App on a Device
     
 ## The application virtual path
