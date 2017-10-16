@@ -20,7 +20,7 @@ In this final chapter, you are going to learn how to deploy your app on connecte
 
 ## 3.1: Prerequisite to run your app on a device
 
-There are a lot of similarities between **Build** and **Run on Device**. For example, you still need to provide a valid certificates and mobile provisions to deploy your app on an iOS device. To avoid repetition with the previous chapter, we will focus only on the specific requirements needed to run your app on a device.
+There are a lot of similarities between **Build** and **Run on Device**. For example, you still need to provide a valid certificate and mobile provision to deploy your app on an iOS device. To avoid repetition with the previous chapter, we will focus only on the specific requirements needed to run your app on a device.
 
 The only prerequisite to run your app on a device is to have one connected to your machine. You also need to verify that the device is detected in {{ site.sk }}. The **Devices** pane provides information about all connected devices and their current state - reachable or not. To open the **Devices** pane, click on the **Devices** button in the bottom right corner of the client.
 

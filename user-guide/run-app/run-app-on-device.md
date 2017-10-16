@@ -22,10 +22,11 @@ With {{ site.ns-sk }}, you can deploy your app on multiple connected devices sim
 
 1. Launch {{ site.ns-sk }} and open your app.
 1. From the top toolbar, select **Run** &#8594; **Run on Device**.
-1. Select a target platform.
+1. Select one or more devices.
 1. Select a **Build Type**.
-1. (Optional) Enable **Clean Build**. You might want to use this option if you experience sporadic build failures or other unexpected behavior. 
 1. Select a **Configuration**.
+1. (Optional) Enable **Clean Build**. When you enable this option, any previously cached data will be ignored and your app will undergo a complete rebuild. This might be helpful if you experience sporadic build failures or other unexpected behavior. Clean Build is available only for Cloud builds.
+1. (Optional) Enable **Start Debugger**. When you enable this option, a to begin a debug session as soon as the app is deployed on the device. Start Debugger is available only in Debug Configuration.
 1. (Optional) If any issues are present, resolve them before you continue.
 1. Click on **Run on Device**.
 1. Once the build process is complete, the app will be automatically deployed on the device. 

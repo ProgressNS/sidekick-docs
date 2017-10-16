@@ -24,7 +24,11 @@ Based on the type of the modified files, the LiveSync will behave differently:
 
 ## Procedure
 
-1. Launch Sidekick and open your app.
+1. Launch {{ site.ns-sk }} and open your app.
 1. Select **Run** &#8594; **Run on Device**.
-1. Under **Configuration**, select **Debug + LiveSync**. This feature is available for both Cloud and Local builds.
+1. Select one or more devices.
+1. Select a **Build Type**.
+1. Under **Configuration**, select **Debug**. 
+1. (Optional) Enable **Clean Build**. When you enable this option, any previously cached data will be ignored and your app will undergo a complete rebuild. This might be helpful if you experience sporadic build failures or other unexpected behavior. Clean Build is available only for Cloud builds.
+1. (Optional) Enable **Start Debugger** to begin a debug session as soon as the app is deployed on the device. Start Debugger is available only in Debug Configuration.
 1. Click on the **Run on Device** button and wait for the app to be deployed on the device.
