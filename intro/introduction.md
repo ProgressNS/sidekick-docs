@@ -4,6 +4,7 @@ description: NativeScript Sidekick is your faithful companion in the world of cr
 position: 1
 publish: true
 slug: introduction
+previous_url: user-guide/publish-app/android-publish
 ---
 
 # Welcome to {{ site.ns-sk }}
