@@ -41,6 +41,9 @@ navigation:
     user-guide/run-app:
         position: 3.7
         title: Running Your App on a Device
+    user-guide/publish-app:
+        position: 3.8
+        title: Publishing Your App
     
 ## The application virtual path
 baseurl: /sidekick
