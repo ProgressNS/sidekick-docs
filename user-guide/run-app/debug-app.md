@@ -12,6 +12,7 @@ Debug an app deployed on a connected device, Android emulator, or the iOS simula
 
 ## Prerequisites
 
+* Verify that you have the latest official version of [iTunes](https://www.apple.com/itunes/download/).
 * Verify that you have connected at least one physical device to your system or you have a running Android emulator or iOS simulator.
 * For Android devices, verify that you have enabled USB debugging. For more information, see [Configure On-Device Developer Options](https://developer.android.com/studio/debug/dev-options.html) in the Android Studio User Guide.
 * Verify that the app deployed on the device is built in Debug configuration.

@@ -31,7 +31,7 @@ The cloud builds are incremental, which ensures that every build after the first
 1. (Optional) If any issues are present, resolve them before you continue.
 1. Click on **Build**.
 1. If you have provided a certificate stored on the file system (step 5), you will be prompted to enter its password on every build. Certificates stored in the Certificate Manager or Keychain do not require password validation. 
-1. Once the build process is complete, you will be presented with a path to the produced `APK` file and a **QR code**. On a physical device, use a barcode scanner to scan the QR code and install the application. 
+1. When the build process is complete, you will be presented with a path to the produced `APK` file and a **QR code**. On a physical device, use a barcode scanner to scan the QR code and install the application. 
 
 ## Procedure for iOS
 
@@ -48,5 +48,5 @@ The cloud builds are incremental, which ensures that every build after the first
 1. (Optional) If any issues are present, resolve them before you continue.
 1. Click on **Build**.
 1. If you have provided a certificate stored on the file system (step 5), you will be prompted to enter its password on every build. Certificates stored in the Certificate Manager or Keychain do not require password validation. 
-1. Once the build process is complete, you will be presented with a path to the produced `IPA` file.
+1. When the build process is complete, you will be presented with a path to the produced `IPA` file.
 

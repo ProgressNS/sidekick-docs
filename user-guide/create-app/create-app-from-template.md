@@ -8,9 +8,9 @@ slug: create-app-from-template
 
 # Create App From Template
 
-To help you get started with mobile app development, {{ site.ns-sk }} provides a selection of templates from which you can create an app. Based on the project type (JavaScript, TypeScript, Angular & TypeScript), you can choose between the Blank, Drawer Navigation, Tab Navigation and Master Detail templates.
+To help you get started with mobile app development, {{ site.ns-sk }} provides a selection of templates from which you can create an app. Based on the project type (JavaScript, TypeScript, Angular & TypeScript), you can choose between the Blank, Drawer Navigation, Tab Navigation and Master-Detail with Firebase and Master-Detail with Kinvey templates.
 
-We recommend the Master Detail template, as it uses Firebase to manage app content and offers the most complete and enriched experience.
+We recommend the Master-Detail with Kinvey or Firebase templates because they use an actual backend service and offer a more complete and enriched experience.
 
 ## Procedure
 

@@ -32,7 +32,7 @@ When your app is production-ready, you can build and publish it to Google Play.
 1. (Optional) If any issues are present, resolve them before you continue.
 1. Click on **Build**.
 1. If you have provided a certificate stored on the file system (step 5), you will be prompted to enter its password on every build. Certificates stored in the Certificate Manager or Keychain do not require password validation. 
-1. Note the path to the newly created application package.
+1. When the build process is complete, you will be presented with a path to the produced `APK`. Remember the location of the application package so you can upload it to the Google Play Console in the next step.
 
 <br/>
 
@@ -45,7 +45,7 @@ When your app is production-ready, you can build and publish it to Google Play.
 1. In the **Pricing & distribution** tab, complete the pricing and distribution settings for your app and click **Save Draft**.
 1. In the **App releases** tab, select between the **Alpha**, **Beta** and **Production** tracks and click on the respective **Manage** button. The **Alpha** and **Beta** tracks are used for initial testing of your application. Only the **Production** track can be used to publish your app to Google Play.
 1. In the screen of the selected track, click **Create Release**.
-1. Under **APKs to add** provide the application package created in Step 1. Review your draft release and make any additional changes if needed.
+1. Under **APKs to add** provide the application package (`APK`) created in Step 1. Review your draft release and make any additional changes if needed.
 1. Select **Review**. In the **Review and rollout release** screen, verify there are no issues with the release before rolling it out to users. Address any warnings or errors.
 1. Click **Confirm rollout** to publish your app.
 	
@@ -55,6 +55,7 @@ When your app is production-ready, you can build and publish it to Google Play.
 
 1. Open and log in the [Google Play Console](https://play.google.com/apps/publish/).
 1. Select **Settings** tab, followed by the **API access** tab.
+1. (Optional) Click **Create New Project**.
 1. Click the **Create Service Account** button and follow the **Google API Console** link in the dialog.
 1. Click the **Create Service account** button at the top of the developers console screen.
 1. Provide a name for the service account.
@@ -79,7 +80,7 @@ When your app is production-ready, you can build and publish it to Google Play.
 1. Close the **Manage Android Certificates for Google Play Store** dialog. 
 1. Select a **Build Type**.
 1. Click **Next** and wait for the build process to complete.
-1. Provide the **Service Account JSON key**.
+1. Provide the **Service Account JSON key** generated in Step 1.
 1. Select between the Alpha, Beta or Production tracks.
 1. Click **Upload**.
 

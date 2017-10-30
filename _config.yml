@@ -74,6 +74,10 @@ assets:
     cachebust: soft
     js_compressor: uglifier
 
+# The google services configuration
+google_tag_manager: GTM-W58JDD
+google_custom_search: '001595215763381649090:asl7kpbijam'    
+    
 ## Do not edit below this line
 safe: false
 markdown: MarkdownProcessor
