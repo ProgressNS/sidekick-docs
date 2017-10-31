@@ -1,20 +1,20 @@
 <div id="feedback-section">
-  {% javascript feedback %}
+  {% javascript feedback-form %}
   <span id="popupNotification"></span>
   <div id="feedback-menu-container">
-    <div id="helpful-buttons-container">
+    <div class="-fr col-5" id="helpful-buttons-container">
       <span class="side-title">Is this article helpful?</span>
-      <a class="button" id="yesButton">Yes</a> /
-      <a class="button" id="noButton">No</a>
+      <a class="Btn" id="yesButton">Yes</a> /
+      <a class="Btn" id="noButton">No</a>
     </div>
-    <div id="feedback-submitted-container">
+    <div class="-fr col-5" id="feedback-submitted-container">
       <span class="side-title">Thank you for your feedback!</span>
     </div>
   </div>
   <div id="feedback-window-container">
-    <div id="feedback-form-window" style="background-color: white;">
-      <h1 class="feedback-extw__title">Give article feedback</h1>
-      <p>Tell us how we can improve this article</p>
+    <div id="feedback-form-window" class="-p2" style="background-color: white;">
+      <h1 class="h3 feedback-extw__title">Give article feedback</h1>
+      <p class="h5">Tell us how we can improve this article</p>
       <span id="feedback-form-popup-container"></span>
       <form id="feedback-form">
         <div id="feedback-checkbox-area">
@@ -63,11 +63,11 @@
         </div>
       </form>
       <div class="feedback-extw__foot">
-        <button id="form-submit-button" class="feedback-extw__button button button--action">Send feedback</button>
-        <button id="form-close-button" class="feedback-extw__button button">Cancel</button>
+        <button id="form-submit-button" class="Btn col-5 feedback-extw__button button button--action">Send feedback</button>
+        <button id="form-close-button" class="Btn Btn--ghost col-5 feedback-extw__button button">Cancel</button>
       </div>
     </div>
   </div>
-  <a id="close-button" class="button"><img src="{{site.baseurl}}/images/close-btn.svg" alt="close" /></a>
+  <!-- <a id="close-button" class="button"><img src="{{site.baseurl}}/images/close-btn.svg" alt="close" /></a> -->
 </div>
-<div id="feedback-section-dummy">Dummy</div>
+<!-- <div id="feedback-section-dummy">Dummy</div> -->
