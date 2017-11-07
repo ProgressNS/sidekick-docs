@@ -6,11 +6,13 @@ publish: true
 slug: whats-new
 ---
 
-# What's New in Sidekick 0.2.7
+# What's New in Sidekick 1.0.0
 
-> To run {{ site.ns-sk }}, you need to have {{ site.ns-cli }} version 3.2.1 or later installed on your machine. 
+> To run {{ site.ns-sk }}, you need to have {{ site.ns-cli }} version 3.3.0 or later installed on your machine. 
 
-* **Publish Your App to Google Play or the App Store**<br/> Use {{ site.ns-sk }} to upload your application package directly to one of the app stores. For more information, see [Publish to Google Play]({% slug android-publish %}) or [Publish to the App Store]({% slug ios-publish %}).
+* **{{ site.ns-sk }} is officially released!** <br /> With the official release, we are introducing subscriptions. You can choose between several types of subscriptions, each offering different benefits. For more information, see the [official {{ site.ns-sk }} purchase page](https://www.nativescript.org/nativescript-sidekick/purchase).
 
-* **Welcome Page**<br/> From this page you can quickly navigate to the {{site.ns}} samples, create a new app, open existing or recently used app, browse the documentation or various other resources.
+
+
+
 	
