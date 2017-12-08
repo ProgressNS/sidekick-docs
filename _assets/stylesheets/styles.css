@@ -5278,7 +5278,7 @@ input.gsc-search-button:focus {
 .k-top,
 .k-mid,
 .k-bot {
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .k-treeview-lines .k-item:before {
