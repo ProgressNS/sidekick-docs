@@ -12,12 +12,15 @@ To build and deploy your apps on an iOS device, you need to have them code signe
 
 > Currently, only users with **Free Apple Developer** accounts can benefit from the automatic code signing assets generation. We are working on extending this functionality and make it available for all types of accounts. You can create a Free Apple Developer account from [here](https://appleid.apple.com/account).
 
-> The iOS devices connected to your machine during the generation will be included in the mobile provision. Apps signed with this mobile provision can be deployed only on these devices.
+> The iOS devices connected to your machine during the generation will be included in the mobile provision. Apps signed with this mobile provision can be deployed only on those devices.
+
+> To generate a temporary certificate and mobile provision, your application must have a unique App ID.
 
 ## Prerequisites
 
 * Verify that you are using a Free Apple Developer account.
 * Verify that you have connected at least one iOS device to your machine.
+* Verify that the App ID of your application is unique.
 
 ## Procedure
 

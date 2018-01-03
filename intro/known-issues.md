@@ -27,7 +27,7 @@ slug: known-issues
 **Workaround:** Place breakpoints only in the TypeScript files.
 
 * When you use `.keystore` or `.jks` certificates, the Release Cloud build for Android fails and the following error message appears: `Only 8, 16, 24, or 32 bits supported: 872`.<br/>
-**Workaround:** Use `.p12` certificates instead. 
+**Workaround:** Use `.p12` certificates instead. You can convert `.keystore` and `.jks` files to `.p12` by following the steps outlined in this [article](https://www.tbs-certificates.co.uk/FAQ/en/627.html).
 
 * On an Android device, when you start a debugging session, the app becomes temporarily unresponsive.<br/>
 **Workaround:** Wait for a couple of seconds and if the `App isn't responding` pop-up appears, select **Wait**. 

@@ -16,7 +16,7 @@ Build your apps locally on your machine with the help of previously installed de
 
 * Verify that you have configured your machine for local development. For more information, see [Install iOS and Android Requirements for Local Builds]({% slug installation %}#step-3-install-ios-and-android-requirements-for-local-builds).
 * To build for iOS, you need a valid certificate and mobile provision. If you have a Free Apple Developer account, you can use the [Code Signing Assistance]({% slug code-signing-assistance %}) to automatically generate temporary certificate and mobile provision. For more information about iOS code signing, see the [iOS Developer Program article]({% slug ios-developer-program %}).
-* To build for Android in Release configuration, you need a valid Google Play self-signed code signing identity.
+* To build for Android in Release configuration, you need a valid Google Play self-signed code signing identity. For more information on how to generate a release certificate for Android, see the following [article](https://docs.nativescript.org/publishing/publishing-android-apps#certificates).
 
 ## Procedure for Android
 
