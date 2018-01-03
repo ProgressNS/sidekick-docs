@@ -15,7 +15,7 @@ When your app is production-ready, you can build and publish it to Google Play.
 ## Prerequisites
 
 * Verify that you are a registered Google Play Developer.
-* Verify that you have a valid Google Play self-signed code signing identity.
+* Verify that you have a valid Google Play self-signed code signing identity. For more information on how to generate a release certificate for Android, see the following [article](https://docs.nativescript.org/publishing/publishing-android-apps#certificates).
 
 ## Procedure for Initial Publish
 
