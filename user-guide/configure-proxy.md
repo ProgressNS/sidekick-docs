@@ -6,7 +6,7 @@ publish: true
 slug: proxy
 ---
 
-# Configure Proxy Settings
+# Configure Proxy
 
 {{ site.ns-sk }} requires access to the internet to work correctly. If your Windows machine is behind a proxy server and you have not provided the correct settings to the {{ site.ns-cli }}, {{ site.sk }} will throw and error on start-up and become unresponsive. 
 
@@ -15,7 +15,7 @@ slug: proxy
 ## Procedure to Modify the Proxy Settings in Sidekick
 
 1. Launch {{ site.ns-sk }}.
-1. Click on the settings icon (cogwheel) located in the top right corner of the client.
+1. Click on the settings icon located in the top right corner of the client.
 1. In the **Settings** view, under **Proxy Settings**, make the necessary modifications to the Proxy URL.
 1. (Optional) Enable **Strict SSL**. 
 1. Click **Save**.

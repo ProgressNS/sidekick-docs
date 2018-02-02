@@ -12,37 +12,37 @@ destination: ./sidekick
 navigation:
 ## List your directory names and order here, like this:
     intro:
-        position: 1
+        position: 10
         title: Introduction
     getting-started:
-        position: 2
+        position: 20
         title: Get Started
     user-guide:
-        position: 3
+        position: 30
         title: User Guide
     user-guide/create-app:
-        position: 3.1
+        position: 40
         title: Creating Your App 
     user-guide/configure-app:
-        position: 3.2
+        position: 45
         title: Configuring Your App    
     user-guide/add-page:
-        position: 3.3
+        position: 50
         title: Adding a New Page to Your App         
     user-guide/code-signing:
-        position: 3.4
+        position: 55
         title: Code Signing Your App
     user-guide/code-signing/code-signing-for-ios:
-        position: 3.5
+        position: 60
         title: Code Signing for iOS Apps
     user-guide/build-app:
-        position: 3.6
+        position: 65
         title: Building Your App
     user-guide/run-app:
-        position: 3.7
+        position: 70
         title: Running Your App on a Device
     user-guide/publish-app:
-        position: 3.8
+        position: 75
         title: Publishing Your App
     
 ## The application virtual path
