@@ -20,6 +20,9 @@ navigation:
     user-guide:
         position: 30
         title: User Guide
+    user-guide/sidekick-settings:
+        position: 35
+        title: Sidekick Settings
     user-guide/create-app:
         position: 40
         title: Creating Your App 
