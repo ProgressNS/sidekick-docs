@@ -12,7 +12,7 @@ Before you can use the **Open in Editor** button to open your app directly in yo
 
 ## Procedure
 
-1. Launch {{ site.ns-sk }} and click on the settings icon in the top right corner.
+1. Run the {{ site.ns-sk }} client and click on the settings icon in the top right corner.
 1. In the **Settings** view, locate the **Code Editor** section.
 1. In the **Path to executable** text box, click **Browse** and select the executable of your preferred code editor.
 1. (Optional) In the **Command line arguments** text box, provide parameters that will be passed to the code editor when it is launched. 
@@ -21,4 +21,4 @@ Before you can use the **Open in Editor** button to open your app directly in yo
 
 ## Next Steps
 
-Explore the [Getting Started Guide]({% slug gs-overview %}) to familiarize yourself further with {{ site.ns-sk }} or [Create a New App]({% slug create-app-from-template %}) and start developing.
+Explore the [Getting Started Guide]({% slug gs-overview %}) to familiarize yourself further with {{ site.ns-sk }} or [Create a New App]({% slug create-app-from-template %}).

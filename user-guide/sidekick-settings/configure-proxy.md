@@ -14,7 +14,7 @@ slug: proxy
 
 ## Procedure
 
-1. Launch {{ site.ns-sk }} and click on the settings icon in the top right corner.
+1. Run the {{ site.ns-sk }} client and click on the settings icon in the top right corner.
 1. In the **Settings** view, locate the **Proxy Settings** section.
 1. Select the **Manual Settings** radio button.
 1. In the **Proxy** text box, provide the IP address and port of your proxy.

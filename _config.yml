@@ -20,6 +20,9 @@ navigation:
     user-guide:
         position: 30
         title: User Guide
+    user-guide/logging-in:
+        position: 33
+        title: Logging in Sidekick
     user-guide/sidekick-settings:
         position: 35
         title: Sidekick Settings
