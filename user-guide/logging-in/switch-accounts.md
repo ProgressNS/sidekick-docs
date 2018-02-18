@@ -8,7 +8,7 @@ slug: switch-account
 
 # Switch Accounts
 
-When you are logged in {{ site.ns-sk }} and you are an owner or member of one or more shared accounts, you can switch between the available accounts.
+When you are logged in {{ site.ns-sk }} and you are an owner or a member of one or more shared accounts, you can switch between the available accounts.
 
 ## Procedure
 

@@ -4,6 +4,7 @@ description: Learn how to modify the proxy settings from within Sidekick
 position: 0
 publish: true
 slug: proxy
+previous_url: /user-guide/configure-proxy
 ---
 
 # Configure Proxy

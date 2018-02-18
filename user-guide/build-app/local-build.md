@@ -10,7 +10,7 @@ slug: local-build
 
 Build your apps locally on your machine with the help of previously installed development tools and SDKs.
 
-> To build iOS apps locally, you need to run {{ site.ns-sk }} on a macOS system.
+> To build iOS apps locally, you need to run {{ site.ns-sk }} on a macOS system. The certificate and mobile provision used to code sign your app should be selected from Xcode.
 
 ## Prerequisites
 
@@ -39,10 +39,6 @@ Build your apps locally on your machine with the help of previously installed de
 1. Launch {{ site.ns-sk }} and open your app.
 1. From the top toolbar, select **Run** &#8594; **Build**.
 1. Select **iOS**.
-1. Hover on the **iOS** box and click on the cogwheel icon to open the **Manage iOS Provisions and Certificates** dialog. 
-1. Next to **Certificate**, click **Browse** to choose a certificate stored on the file system or expand the **drop-down** to select a certificate stored in the Certificate Manager (Windows) or the Keychain (macOS).
-1. Next to **Provision**, click **Browse** to choose a mobile provision stored on the file system.
-1. Close the **Manage iOS Provisions and Certificates** dialog.
 1. Under **Build Type**, select **Local Build**.
 1. Select a **Configuration**.
 1. (Optional) Enable **Webpack**. Available only for builds in **Release** configuration. For more information, see [Bundle Your Code with Webpack]({% slug webpack %}). 
