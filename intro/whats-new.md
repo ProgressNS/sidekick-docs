@@ -15,8 +15,8 @@ slug: whats-new
 * **Introducing industry specific app templates**<br/>
 The **Patient Care** and **Health Survey** templates can be accessed from the **Industry** tab in the **Create App** view. Both templates leverage the Progress Health Cloud and use Kinvey for back-end.
 
-* **New UI for Create App **<br/>
-**Create App** is no longer a separate dialog and the user interface is updated to reflect the addition of the industry specific templates. For more information about creating apps, see [Create App From Template]({% slug create-app-from-template %}).
+* **New UI for Create App**<br/>
+The **Create App** dialog is no longer a separate window and the user interface is updated to reflect the addition of the industry specific templates. For more information about creating apps, see [Create App From Template]({% slug create-app-from-template %}).
 
 ### v1.4.0 - 12 February 2018
 
