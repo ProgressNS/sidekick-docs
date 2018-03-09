@@ -9,7 +9,7 @@ previous_url: user-guide/publish-app/android-publish
 
 # Welcome to {{ site.ns-sk }}
 
-{{ site.ns-sk }} is a lightweight but powerful GUI client which runs on your desktop and is available for Windows, macOS, and Linux. It enhances the power of the {{ site.ns }} Command-Line Interface (CLI) and simplifies the entire process of developing a mobile application. {{ site.sk }} is designed to be an unobtrusive companion that complements your favorite code editor, IDE, source control system, and any other tools you use.
+[{{ site.ns-sk }}](https://www.nativescript.org/nativescript-sidekick) is a lightweight but powerful GUI client which runs on your desktop and is available for Windows, macOS, and Linux. It enhances the power of the {{ site.ns }} Command-Line Interface (CLI) and simplifies the entire process of developing a mobile application. {{ site.sk }} is designed to be an unobtrusive companion that complements your favorite code editor, IDE, source control system, and any other tools you use.
 [//]: # (Mention the power of the cloud) 
 
 > New to {{ site.ns }}? More information about this awesome mobile development technology can be found in the [official {{ site.ns }} documentation](https://docs.nativescript.org/).
