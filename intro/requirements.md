@@ -33,6 +33,6 @@ slug: requirements
 ## Additional Requirements
 
 * **Node.js**<br /> To run {{ site.sk }}, you need the latest [Node.js LTS](https://github.com/nodejs/LTS#lts-schedule) version. We recommend using [Node.js 6.x](https://nodejs.org/dist/latest-v6.x/).
-* **{{site.ns-cli}}**<br /> To run {{ site.sk }}, you need to have the latest version of the {{site.ns-cli}} (currently, 3.4.1) installed on your machine.
+* **{{site.ns-cli}}**<br /> To run {{ site.sk }}, you need to have the latest version of the {{site.ns-cli}} (currently, 3.4.3) installed on your machine.
 * **iTunes**<br /> To deploy on a connected iOS device, you need the latest official version of [iTunes](https://www.apple.com/itunes/download/).
 * **Drivers for Android devices**<br /> To deploy on a connected Android device, you need the appropriate device drivers.
