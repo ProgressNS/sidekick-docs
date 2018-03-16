@@ -50,7 +50,10 @@ navigation:
     user-guide/publish-app:
         position: 75
         title: Publishing Your App
-    
+    user-guide/enterprise-auth:
+        position: 80
+        title: Enterprise Auth
+
 ## The application virtual path
 baseurl: /sidekick
    
