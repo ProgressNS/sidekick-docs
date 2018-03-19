@@ -8,9 +8,14 @@ slug: whats-new
 
 # Release Notes
 
-### v1.6.0 - 09 March 2018
+### v1.7.0 - 09 March 2018
 
 > To run {{ site.ns-sk }}, you need to have {{ site.ns-cli }} version **3.4.3** or later installed on your machine.
+
+* **Enterprise authentication for your mobile app**<br/>
+You can connect your app to an enterprise authentication provider via OAuth 2, OpenID Connect or SAML-Redirect. For more information about the enterprise authentication and how to configure it, see [Using Enterprise Authentication]({% slug enterprise-auth %}). 
+
+### v1.6.0 - 09 March 2018
 
 * **The {{ site.ns-cli }} logs are now visible in {{ site.sk }}**<br/>
 You can find the logs inside the `All` tab of the `Output` pane. The {{ site.ns-cli }} logs contain the `(CLI)` prefix to make them distinguishable from the {{ site.sk }} logs.
