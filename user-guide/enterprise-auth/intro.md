@@ -12,7 +12,7 @@ NativeScript Sidekick lets you connect to existing enterprise identity and singl
 
 Let’s look at how it works.
 
-* [Step 1. Start you app](#step-1)
+* [Step 1. Start your app](#step-1)
 * [Step 2. Select a protocol](#step-2)
 * [Step 3: Complete the configuration](#step-3)
 * [Step 4: Run your app](#step-4)
@@ -23,11 +23,13 @@ As a first step, [create a new app]({% slug create-app-from-template %}) using t
 
 ![](/images/enterprise-auth/sidekick-templates.png)
 
-Give your app a name, and click **Create**. Sidekick will take a minute to scaffold your app, and then you’ll be ready to set up the connection to your enterprise auth provider.
+Give your app a name, and click **Create**. Sidekick will take a minute to scaffold your app. When it finishes, click the **Configure** button in the blue bar to start setting up the connection to your enterprise auth provider.
+
+![](/images/enterprise-auth/blue-bar.png)
 
 <h2 id="step-2">Step 2. Select a protocol</h2>
 
-> **WARNING**: Completing this authentication setup can be hard, as the information you need to obtain varies depending on your auth provider. Therefore, you might need to work with your IT admins to help get the information that you need to make the connection, especially if you’re not familiar with the infrastructure behind your auth provider.
+> **WARNING**: Completing this authentication setup can be hard, as the information you need to obtain varies depending on your auth provider. Therefore, you might need to work with your IT admins to help get the information that you need to make the connection, especially if you're not familiar with the infrastructure behind your auth setup.
 
 On the Enterprise Auth screen the first thing you’ll see is a collection of radio buttons, asking you to choose between **SAML-Redirect**, **OpenID Connect**, and **OAuth 2**.
 

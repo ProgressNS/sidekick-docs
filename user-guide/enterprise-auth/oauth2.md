@@ -141,7 +141,7 @@ Now that our Azure Active Directory is set up, let's look at the values within A
 
 * **Client Secret** is the value of the key created in step 8 above. If you did not copy the key during that step, it is hidden and you'll simply need to create a new key.
 * **User ID Attribute** and **User ID Endpoint** can both be blank.
-* **Scope** should be set to `email` to give your app access to the user's email address.
+* **Scope** should be set to `openid profile email` to give your app access to the proper permissions.
 * **Include client ID in token request?** and **Include client secret in token request?** can both remain "No".
 
 When you’re done, your form should look something like this in Sidekick.
