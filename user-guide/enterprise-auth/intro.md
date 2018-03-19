@@ -17,6 +17,9 @@ Let’s look at how it works.
 * [Step 3: Complete the configuration](#step-3)
 * [Step 4: Run your app](#step-4)
 
+* [How does this work?](#how-does-this-work)
+* [What else can I do with my Kinvey account?](#what-else-can-i-do-with-my-kinvey-account)
+
 <h2 id="step-1">Step 1. Start your app</h2>
 
 As a first step, [create a new app]({% slug create-app-from-template %}) using the Enterprise Auth template.

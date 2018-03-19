@@ -5786,3 +5786,11 @@ html .tp-radio .radio__icon:before {
 .tp-radio .radio__input:disabled + label .radio__icon {
   border-color: rgba(0,0,0,.3);
 }
+
+#page-article tr:nth-child(even) {
+    background: lightgray;
+}
+#page-article th, #page-article td {
+    text-align: left;
+    padding: 0.5em;
+}
