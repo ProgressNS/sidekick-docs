@@ -3,6 +3,7 @@ title: Using Enterprise Authentication
 description: Learn how to connect to your enterprise authentication provider, and how to leverage data from that provider in your apps.
 position: 1
 publish: true
+slug: enterprise-auth
 ---
 
 # Using Enterprise Authentication
@@ -11,16 +12,16 @@ NativeScript Sidekick lets you connect to existing enterprise identity and singl
 
 Let’s look at how it works.
 
-* [Step 1. Start you app](#step-2)
+* [Step 1. Start you app](#step-1)
 * [Step 2. Select a protocol](#step-2)
 * [Step 3: Complete the configuration](#step-3)
 * [Step 4: Run your app](#step-4)
 
 <h2 id="step-1">Step 1. Start your app</h2>
 
-As a first step, [create a new app](/sidekick/user-guide/create-app/create-app-from-template) using the Enterprise Auth template.
+As a first step, [create a new app]({% slug create-app-from-template %}) using the Enterprise Auth template.
 
-![](/sidekick/images/enterprise-auth/sidekick-templates.png)
+![](/images/enterprise-auth/sidekick-templates.png)
 
 Give your app a name, and click **Create**. Sidekick will take a minute to scaffold your app, and then you’ll be ready to set up the connection to your enterprise auth provider.
 
@@ -30,7 +31,7 @@ Give your app a name, and click **Create**. Sidekick will take a minute to scaff
 
 On the Enterprise Auth screen the first thing you’ll see is a collection of radio buttons, asking you to choose between **SAML-Redirect**, **OpenID Connect**, and **OAuth 2**.
 
-![](/sidekick/images/enterprise-auth/selecting-authentication-service.png)
+![](/images/enterprise-auth/selecting-authentication-service.png)
 
 Knowing which service you need means knowing a little bit about your enterprise authentication provider. Some providers only support one of the above protocols, while others allow you to choose between the protocol you prefer.
 
@@ -40,23 +41,23 @@ Once you’ve figured out which protocol your service supports, select the appro
 
 Each authentication service requires a different set of values needed to make the connection. Therefore, refer to one of the following guides to help complete the rest of the necessary configuration.
 
-* [Configuring **SAML-Redirect** Authentication](saml.md)
-* [Configuring **OpenID Connect** Authentication](openid.md)
-* [Configuring **OAuth 2** Authentication](oauth2.md)
+* [Configuring **SAML-Redirect** Authentication]({% slug saml%})
+* [Configuring **OpenID Connect** Authentication]({% slug openid %})
+* [Configuring **OAuth 2** Authentication]({% slug oauth2 %})
 
 <h2 id="step-4">Step 4: Run your app</h2>
 
 After you’ve completed the authentication setup, your last step is to run your app and see your new authentication workflow in action.
 
-> **TIP**: If you haven’t run an app on a device using NativeScript Sidekick before, check out our documentation on [running your app](https://docs.nativescript.org/sidekick/user-guide/run-app/run-app-on-device).
+> **TIP**: If you haven’t run an app on a device using NativeScript Sidekick before, check out our documentation on [running your app]({% slug deploy-on-device %}).
 
 After Sidekick deploys your new app to your device(s) you should see an app that looks like this.
 
-![](/sidekick/images/enterprise-auth/template-in-action.png)
+![](/images/enterprise-auth/template-in-action.png)
 
 When you tap the **Log in** button, if all went well, you should be prompted to authenticate with your enterprise authentication provider. In the case of our Microsoft Azure-based example, the app prompts the user to authenticate with their Microsoft account.
 
-![](/sidekick/images/enterprise-auth/app-auth-screen.png)
+![](/images/enterprise-auth/app-auth-screen.png)
 
 > **NOTE**: Configuring enterprise authentication providers is very tricky. If you’re not seeing your auth screen as expected, or if you hit problems at any time throughout the process, feel free to [reach out on the NativeScript community forum](https://discourse.nativescript.org/c/Sidekick).
 
@@ -70,7 +71,7 @@ You can see the Mobile Identity Connect service that NativeScript Sidekick autom
 
 ## What else can I do with my Kinvey account?
 
-Your Kinvey account also gives you access to a ton of additonal features beyond just Mobile Identity Connect. Some of them include:
+Your Kinvey account also gives you access to a ton of additional features beyond just Mobile Identity Connect. Some of them include:
 
 * [NoSQL data stores](https://devcenter.kinvey.com/nativescript/guides/datastore) and [file stores](https://devcenter.kinvey.com/nativescript/guides/files) that can serve as a back end to your app.
 * [Push notification](https://devcenter.kinvey.com/nativescript/guides/push) support for your NativeScript app.
