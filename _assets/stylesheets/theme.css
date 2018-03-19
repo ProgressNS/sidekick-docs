@@ -959,3 +959,11 @@ article img {
 .k-tabstrip .k-tabstrip-items .k-state-active .k-link {
     color: #fff;
 }
+
+#page-article tr:nth-child(even) {
+    background: lightgray;
+}
+#page-article th, #page-article td {
+    text-align: left;
+    padding: 0.5em;
+}
