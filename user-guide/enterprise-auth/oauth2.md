@@ -120,7 +120,7 @@ The following steps will walk you through creating a new Azure Active Directory 
 
 	![client secret](/images/enterprise-auth/client-secret.png)
 
-In order to test the log in process, Azure Active Directory will need a user. To add a user, go to Active Directory, click **Users and Groups**, then **All Users**, and finally **New User**. For testing purposes, you could add yourself.
+In order to test the log in process, Azure Active Directory will need a user. To assing a user to this enterprise application, click on "Assign a user for testing" in the quick start or "Users and groups" in the enterprise application sub-navigation. For testing purposes, you could add yourself.
 
 ### Providing OAuth 2 form values for Azure
 
