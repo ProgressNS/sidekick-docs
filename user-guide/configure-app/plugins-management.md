@@ -11,8 +11,8 @@ slug: plugins-management
 In {{ site.sk }}, you can easily find, install and update various {{ site.ns }} plugins and npm packages to extend the functionality of your app.
 
 1.	[What are NativeScript plugins](#what-are-nativescript-plugins)
-2.	[The NativeScript Marketplace](#the-nativescript-marketplace)
-3.	[NativeScript plugins in Sidekick](#nativescript-plugins-in-sidekick)
+1.	[The NativeScript Marketplace](#the-nativescript-marketplace)
+1.	[NativeScript plugins in Sidekick](#nativescript-plugins-in-sidekick)
 	1.	[Install new plugins](#install-new-plugins)
 	1.	[Update existing plugins](#update-existing-plugins)
 	1.	[Remove existing plugins](#remove-existing-plugins)
@@ -60,6 +60,10 @@ In {{ site.sk }}, you can easily find, install, update and remove plugins, both 
 1. From **App Settings**, select **Plugins** to open the Plugins pane.
 1. Select the **Installed** tab and select the plugin that you want to remove.
 1. Click the **Uninstall** button to remove the selected plugin. 
+
+## Next Steps
+
+Update your code to utilize the newly installed plugins and then [deploy your app on a connected device]({% slug deploy-on-device %}) to test the new functionality.
 
 ## See Also
 
