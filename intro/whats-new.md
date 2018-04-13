@@ -8,15 +8,23 @@ slug: whats-new
 
 # Release Notes
 
-## v1.8.0 - 27 March 2018
+## v1.9.0 - 13 April 2018
 
-> To run {{ site.ns-sk }}, you need to have {{ site.ns-cli }} version **3.4.3** or later installed on your machine.
+> To run {{ site.ns-sk }}, you need to have {{ site.ns-cli }} version **4.0.0** or later installed on your machine.
+
+* **Generate application assets for all mobile platform from a single image**<br/>
+Provide a single icon or splash screen source image and {{ site.sk }} will use it to generate app assets (icons and splash screens) for all mobile platforms. For more information about the app assets generation, see [Assets Management]({% slug assets-management %}).
+
+* **Enable webpack for cloud and local builds in debug configuration**<br/>
+Enable the webpack option in `debug` builds to bundle your code and improve the performance of your application during the development process. For more information about webpack and how to use it in {{ site.sk }}, see [Bundle Your Code with Webpack]({% slug webpack %}).
+
+## v1.8.0 - 27 March 2018
 
 * **Manage the dev dependencies of your app directly from {{ site.sk }}**<br/>
 The `Plugins` tab of `App Settings` now lists the `devDependencies` of your app. They are marked by the `dev` tag and you can add new or remove existing ones from your project the same way you do with the ordinary dependencies. For more information about plugins management in {{ site.sk }}, see [Plugins Management]({% slug plugins-management %}).  
 
 * **Quickly access the folder that stores the {{ site.sk }} logs**<br/>
-To access the folder containing the logs, you should open {{ site.sk }} and select **Help** &#8594; **Show Logs** from the top menu. You can inspect the logs to identify build errors or share them with us in GitHub issues or support tickets.
+To access the folder containing the logs, you should open {{ site.sk }} and select `Help` &#8594; `Show Logs` from the top menu. You can inspect the logs to identify build errors or share them in GitHub issues or support tickets.
 
 ## v1.7.0 - 09 March 2018
 
@@ -49,7 +57,7 @@ You can use the newly added `Open in Editor` button to quickly open the code of 
 ## v1.2.0 - 23 January 2018
 
 * **Enable webpack for cloud and local builds in release configuration**<br/>
-Enable the webpack option in `release` builds to bundle your code and improve the performance of your application. For more information about webpack and how to use it in {{ site.sk }}, see [Bundle Your Code with webpack]({% slug webpack %}).
+Enable the webpack option in `release` builds to bundle your code and improve the performance of your application. For more information about webpack and how to use it in {{ site.sk }}, see [Bundle Your Code with Webpack]({% slug webpack %}).
 
 ## v1.1.0 - 21 December 2017
 
