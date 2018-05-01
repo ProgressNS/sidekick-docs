@@ -1,12 +1,12 @@
 ---
-title: Android Settings
+title: Android Properties
 description: Personalize your mobile app for Android devices by configuring Android-specific options in the Android tab in the App Settings panel.
 position: 4
 publish: true
 slug: android-properties
 ---
 
-# Android Settings
+# Android Properties
 
 In the **Android Settings** tab, you can set, enable and modify Android specific properties.
 

@@ -8,9 +8,13 @@ slug: whats-new
 
 # Release Notes
 
-## v1.9.0 - 13 April 2018
+## v1.10.0 - 23 May 2018
 
 > To run {{ site.ns-sk }}, you need to have {{ site.ns-cli }} version **4.0.0** or later installed on your machine.
+
+* **New user interface for the main Sidekick view**<br/>
+
+## v1.9.0 - 13 April 2018
 
 * **Generate application assets for all mobile platform from a single image**<br/>
 Provide a single icon or splash screen source image and {{ site.sk }} will use it to generate app assets (icons and splash screens) for all mobile platforms. For more information about the app assets generation, see [Assets Management]({% slug assets-management %}).

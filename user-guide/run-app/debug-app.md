@@ -16,12 +16,22 @@ Debug an app deployed on a connected device, Android emulator, or the iOS simula
 * Verify that you have connected at least one physical device to your system or you have a running Android emulator or iOS simulator.
 * For Android devices, verify that you have enabled USB debugging. For more information, see [Configure On-Device Developer Options](https://developer.android.com/studio/debug/dev-options.html) in the Android Studio User Guide.
 * Verify that the app deployed on the device is built in Debug configuration.
-* Verify that the app you want to debug is currently running.
+* Verify that the app you want to debug is currently running on the device.
 
 ## Procedure
 
 1. Launch {{ site.ns-sk }} and open your app.
-1. From the bottom bar, select **Devices**.
-1. Locate the device that contains the app to debug. 
-1. Click on the **Start Debugger** button placed next to the device name. 
+1. From the left toolbar, select **Devices**.
+1. Click on the **Start Debugger** button (bug icon) next to the respective device.
 1. Use the newly opened Developer Tools dialog to debug your app.
+
+> **NOTE**: For more detailed information about the debugging of NativeScript apps with the Chrome DevTools, see [Chrome DevTools Debugging](https://docs.nativescript.org/tooling/chrome-devtools).
+
+## Next Steps
+
+Learn how you can [LiveSync changes]({% slug livesync-changes %}) made to the code directly on the device, without the need to rebuild and redeploy your application.
+
+## See Also
+
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
+* [Get Started with Debugging JavaScript in Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/javascript/)
