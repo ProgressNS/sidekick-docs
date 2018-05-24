@@ -22,7 +22,7 @@ When your app is production-ready, you can build and publish it to Google Play.
 #### Step 1: Build an application package in {{ site.ns-sk }}
 
 1. Launch {{ site.ns-sk }} and open your app.
-1. From the top toolbar, select **Run** &#8594; **Build**.
+1. From the top toolbar, select **Build**.
 1. Select **Android**.
 1. Hover on the **Android** box and click on the cogwheel icon to open the **Manage Android Certificates** dialog. 
 1. Next to **Certificate**, click **Browse** to choose a certificate stored on the file system or expand the **drop-down** to select a certificate stored in the Certificate Manager (Windows) or the Keychain (macOS).

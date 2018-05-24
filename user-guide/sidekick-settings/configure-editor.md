@@ -12,8 +12,9 @@ Before you can use the **Open in Editor** button to open your app directly in yo
 
 ## Procedure
 
-1. Run the {{ site.ns-sk }} client and click on the settings icon in the top right corner.
-1. In the **Settings** view, locate the **Code Editor** section.
+1. Launch {{ site.ns-sk }}.
+1. Click on the settings icon, which is located in the top right corner.
+1. In the **Settings** view, select the **Code Editor** section.
 1. In the **Path to executable** text box, click **Browse** and select the executable of your preferred code editor.
 1. (Optional) In the **Command line arguments** text box, provide parameters that will be passed to the code editor when it is launched. 
 1. Click **Save**.

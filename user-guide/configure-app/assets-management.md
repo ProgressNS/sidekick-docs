@@ -24,7 +24,7 @@ You can quickly configure the icons and splash screens of your app by providing 
 > **IMPORTANT**: The application assets that {{ site.sk }} creates from your source image will overwrite any existing icons or splash screens.
 
 1. Launch {{ site.ns-sk }} and open your app.
-1. From **App Settings**, select **Assets** to open the Assets pane.
+1. From the left toolbar, select **Assets** to open the Assets view.
 1. To generate the icons of your app, complete the following steps.
 	1. In the icon placeholder in the generator, click **Browse**.
 	1. Browse and locate the image source that you want to use, select it and click **Open**.
@@ -36,7 +36,7 @@ You can quickly configure the icons and splash screens of your app by providing 
 	1. When prompted, choose for which platforms you want to generate splash screens.
 	1. (Optional) Provide a custom background color in a hexadecimal format.
 	1. Click **Generate** and wait for the operation to complete.
-1. (Optional) Inspect the newly added app assets in the **Assets** pane.
+1. (Optional) Select the **Android** and **iOS** tabs to inspect the newly added app assets.
 
 ## Next Steps
 

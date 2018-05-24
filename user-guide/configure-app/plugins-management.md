@@ -38,7 +38,7 @@ In {{ site.sk }}, you can easily find, install, update and remove plugins, both 
 ### Install new plugins
 
 1. Launch {{ site.ns-sk }} and open your app.
-1. From **App Settings**, select **Plugins** to open the Plugins pane.
+1. From the left toolbar, select **Plugins** to open the Plugins view.
 1. Select the **Available** tab and type the name of the plugin in the search box.
 1. Choose the plugin that you want to install.
 1. Click the **Install** drop-down button to expand it.
@@ -48,7 +48,7 @@ In {{ site.sk }}, you can easily find, install, update and remove plugins, both 
 ### Update existing plugins
 
 1. Launch {{ site.ns-sk }} and open your app.
-1. From **App Settings**, select **Plugins** to open the Plugins pane.
+1. From the left toolbar, select **Plugins** to open the Plugins view.
 1. Select the **Installed** tab and select the plugin that you want to update.
 1. Click the **Update** button to update the plugin to the latest available version. 
 
@@ -57,7 +57,7 @@ In {{ site.sk }}, you can easily find, install, update and remove plugins, both 
 ### Remove existing plugins
 
 1. Launch {{ site.ns-sk }} and open your app.
-1. From **App Settings**, select **Plugins** to open the Plugins pane.
+1. From the left toolbar, select **Plugins** to open the Plugins view.
 1. Select the **Installed** tab and select the plugin that you want to remove.
 1. Click the **Uninstall** button to remove the selected plugin. 
 

@@ -1,14 +1,14 @@
 ---
-title: General Settings
+title: General Properties
 description: In the General Properties tab you can quickly configure non-OS-specific options like app name, app identifier, app version and so on.
 position: 2
 publish: true
 slug: general-properties
 ---
 
-# General Settings
+# General Properties
 
-In the **General Settings** tab, you can set or modify the app name, description, application identifier, application version, and author. 
+In the **General** tab, you can set or modify the app name, description, application identifier, application version, and author. 
 
 * **App Name**<br /> The app name is the user-friendly title that appears on the device below the app icon. This setting applies to all device platforms. To set different display names for each platform, you need to modify the respective configuration files.
 * **App Folder**<br /> The app folder field shows the storage location of your app.
