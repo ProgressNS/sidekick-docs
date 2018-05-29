@@ -10,9 +10,10 @@ slug: whats-new
 
 ## v1.10.0 - 23 May 2018
 
-> To run {{ site.ns-sk }}, you need to have {{ site.ns-cli }} version **4.0.0** or later installed on your machine.
+> To run {{ site.ns-sk }}, you need to have {{ site.ns-cli }} version **4.0.2** or later installed on your machine.
 
-* **New user interface for the main Sidekick view**<br/>
+* **New user interface for the main {{ site.sk }} view**<br/>
+We have updated the user interface of the main {{ site.sk }} view to be more intuitive and easy to use. The most notable change is related to the run on device feature - to access the `Run on Device` view, you need to open the `Devices` tab from the left side toolbar.  
 
 ## v1.9.0 - 13 April 2018
 
