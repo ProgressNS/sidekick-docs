@@ -53,6 +53,9 @@ navigation:
     user-guide/enterprise-auth:
         position: 80
         title: Enterprise Auth
+    troubleshooting:
+        position: 85
+        title: Troubleshooting
 
 ## The application virtual path
 baseurl: /sidekick
