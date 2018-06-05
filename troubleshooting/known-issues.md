@@ -1,6 +1,6 @@
 ---
 title: Known Issues
-description: 
+description: A list of all known NativeScript Sidekick issues and their possible workarounds
 position: 5
 publish: true
 slug: known-issues
@@ -14,11 +14,11 @@ slug: known-issues
 * When you select, install, update or remove plugins from the **Plugins** tab in App Settings, you might experience an `Internal server error`.<br/>
 **Workaround:** Install the plugins manually from a command-line terminal (Command Prompt on Windows, Terminal on macOS and Linux). 
 
+* When you are using npm 5.4.0, 5.4.1 or 5.4.2, you cannot create a new app based on a template that contains the `nativescript-telerik-ui` plugin.<br/>
+**Workaround:** Install a newer version of npm. 
+
 * When you are using npm 5.0.0, 5.0.1 or 5.0.2, Sidekick cannot install one of its dependencies and you will not be able to build in the cloud.<br/>
 **Workaround:** Install a newer version of npm.  
-
-* When you are using npm 5.4.0, 5.4.1 or 5.4.2, you cannot create a new app based on a template that contains the `nativescript-telerik-ui` plugin.<br/>
-**Workaround:** Install an older or newer version of npm. 
 
 * When you debug, expanding the **Global Listeners** panel will show an error message in the Chrome DevTools console.<br/>
 **Workaround:** None.
